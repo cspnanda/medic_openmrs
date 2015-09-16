@@ -1,0 +1,48 @@
+{
+   "id":"REPLACEME",
+   "created":"2015-08-07T20:14:14.000+0000",
+   "name":"admin admin",
+   "lastUpdated":"2015-08-08T01:45:33.105+0000",
+   "surname":"admin",
+   "externalAccess":false,
+   "firstName":"admin",
+   "displayName":"admin admin",
+   "userCredentials":{
+      "name":"admin admin",
+      "code":"admin",
+      "created":"2015-08-07T20:14:14.000+0000"
+   },
+   "access":{
+      "update":true,
+      "externalize":false,
+      "write":true,
+      "delete":true,
+      "read":true,
+      "manage":false
+   },
+   "organisationUnits":[
+      {
+         "id":"zXNFM35fTyh",
+         "name":"medic",
+         "created":"2015-08-08T01:42:19.000+0000",
+         "lastUpdated":"2015-08-08T01:42:19.000+0000",
+         "href":"http://172.16.11.129:8082/api/organisationUnits/zXNFM35fTyh"
+      }
+   ],
+   "dataViewOrganisationUnits":[
+      {
+         "id":"zXNFM35fTyh",
+         "name":"medic",
+         "created":"2015-08-08T01:42:19.000+0000"
+      }
+   ],
+   "attributeValues":[
+
+   ],
+   "userGroups":[
+
+   ],
+   "userGroupAccesses":[
+
+   ]
+}

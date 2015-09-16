@@ -1,0 +1,55 @@
+{
+   "id":"yNRMetzks5f",
+   "name":"last_menstrual_period",
+   "code":"last_menstrual_period",
+   "shortName":"LMP",
+   "created":"2015-08-07T23:22:46.000+0000",
+   "lastUpdated":"2015-08-07T23:23:30.000+0000",
+   "zeroIsSignificant":false,
+   "displayDescription":"Weeks since last menstrual period",
+   "type":"int",
+   "dataDimension":true,
+   "description":"Weeks since last menstrual period",
+   "externalAccess":false,
+   "publicAccess":"rw------",
+   "aggregationOperator":"sum",
+   "allItems":false,
+   "url":"",
+   "numberType":"posInt",
+   "domainType":"AGGREGATE",
+   "optionSetValue":false,
+   "displayName":"last_menstrual_period",
+   "displayShortName":"LMP",
+   "access":{
+      "update":true,
+      "externalize":false,
+      "write":true,
+      "delete":true,
+      "read":true,
+      "manage":true
+   },
+   "categoryCombo":{
+      "id":"REPLACEME",
+      "name":"default",
+      "created":"2015-08-07T20:13:52.000+0000",
+      "lastUpdated":"2015-08-07T20:13:52.000+0000"
+   },
+   "aggregationLevels":[
+
+   ],
+   "dataElementGroups":[
+
+   ],
+   "dataSets":[
+
+   ],
+   "attributeValues":[
+
+   ],
+   "items":[
+
+   ],
+   "userGroupAccesses":[
+
+   ]
+}

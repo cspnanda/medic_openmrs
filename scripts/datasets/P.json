@@ -1,0 +1,65 @@
+{
+   "id":"QjxOOYlx0Nc",
+   "name":"Pregnancy Registration LMP",
+   "code":"P",
+   "shortName":"Pregnancy Registration LMP",
+   "expiryDays":0,
+   "version":1,
+   "approveData":false,
+   "renderHorizontally":false,
+   "externalAccess":false,
+   "openFuturePeriods":0,
+   "fieldCombinationRequired":false,
+   "skipOffline":false,
+   "dataSetType":"default",
+   "publicAccess":"rw------",
+   "validCompleteOnly":false,
+   "skipAggregation":false,
+   "noValueRequiresComment":false,
+   "notifyCompletingUser":false,
+   "timelyDays":15,
+   "renderAsTabs":false,
+   "dataElementDecoration":false,
+   "periodType":"Daily",
+   "displayName":"Pregnancy Registration LMP",
+   "displayShortName":"Pregnancy Registration LMP",
+   "mobile":false,
+   "access":{
+      "update":true,
+      "externalize":false,
+      "write":true,
+      "delete":true,
+      "read":true,
+      "manage":true
+   },
+   "sections":[
+
+   ],
+   "dataElements":[
+      {
+         "name":"patient_name",
+         "code":"Name"
+      },
+      {
+         "name":"last_menstrual_period",
+         "code":"LMP"
+      }
+   ],
+   "organisationUnits":[
+      {
+         "id":"REPLACEME"
+      }
+   ],
+   "indicators":[
+
+   ],
+   "attributeValues":[
+
+   ],
+   "compulsoryDataElementOperands":[
+
+   ],
+   "userGroupAccesses":[
+
+   ]
+}

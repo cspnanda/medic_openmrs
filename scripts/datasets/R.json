@@ -1,0 +1,61 @@
+{
+   "id":"QjxOOYlx0Nd",
+   "name":"Pregnancy Registration",
+   "code":"R",
+   "shortName":"Pregnancy Registration",
+   "expiryDays":0,
+   "version":1,
+   "approveData":false,
+   "renderHorizontally":false,
+   "externalAccess":false,
+   "openFuturePeriods":0,
+   "fieldCombinationRequired":false,
+   "skipOffline":false,
+   "dataSetType":"default",
+   "publicAccess":"rw------",
+   "validCompleteOnly":false,
+   "skipAggregation":false,
+   "noValueRequiresComment":false,
+   "notifyCompletingUser":false,
+   "timelyDays":15,
+   "renderAsTabs":false,
+   "dataElementDecoration":false,
+   "periodType":"Daily",
+   "displayName":"Pregnancy Registration",
+   "displayShortName":"Pregnancy Registration",
+   "mobile":false,
+   "access":{
+      "update":true,
+      "externalize":false,
+      "write":true,
+      "delete":true,
+      "read":true,
+      "manage":true
+   },
+   "sections":[
+
+   ],
+   "dataElements":[
+      {
+         "name":"patient_name",
+         "code":"Name"
+      }
+   ],
+   "organisationUnits":[
+      {
+         "id":"REPLACEME"
+      }
+   ],
+   "indicators":[
+
+   ],
+   "attributeValues":[
+
+   ],
+   "compulsoryDataElementOperands":[
+
+   ],
+   "userGroupAccesses":[
+
+   ]
+}

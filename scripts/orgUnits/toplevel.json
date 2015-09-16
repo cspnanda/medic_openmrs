@@ -1,0 +1,55 @@
+{
+   "id":"zXNFM35fTyh",
+   "level":1,
+   "openingDate":"2015-08-07",
+   "name":"medic",
+   "uuid":"b6698310-1782-4333-b869-df37de3ea84c",
+   "shortName":"medic",
+   "displayDescription":"",
+   "description":"",
+   "path":"/zXNFM35fTyh",
+   "externalAccess":false,
+   "displayName":"medic",
+   "displayShortName":"medic",
+   "access":{
+      "update":true,
+      "externalize":false,
+      "write":true,
+      "delete":true,
+      "read":true,
+      "manage":false
+   },
+   "user":{
+      "id":"zICmz7a7K6I",
+      "name":"admin admin",
+      "created":"2015-08-07T20:14:14.000+0000",
+      "lastUpdated":"2015-08-07T20:14:14.000+0000"
+   },
+   "users":[  
+      {  
+         "id":"REPLACEME",
+         "name":"admin admin",
+         "created":"2015-08-07T20:14:14.000+0000",
+         "lastUpdated":"2015-08-07T20:14:14.000+0000",
+         "href":"http://172.16.11.129:8082/api/users/zICmz7a7K6I"
+      }
+   ],
+   "organisationUnitGroups":[
+
+   ],
+   "children":[
+
+   ],
+   "programs":[
+
+   ],
+   "dataSets":[
+
+   ],
+   "attributeValues":[
+
+   ],
+   "userGroupAccesses":[
+
+   ]
+}

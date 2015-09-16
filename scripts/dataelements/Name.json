@@ -1,0 +1,55 @@
+{
+   "id":"Ls9NDZKhT7o",
+   "name":"patient_name",
+   "created":"2015-08-07T23:22:46.000+0000",
+   "lastUpdated":"2015-08-07T23:23:30.000+0000",
+   "code":"patient_name",
+   "shortName":"Name",
+   "zeroIsSignificant":false,
+   "displayDescription":"Patient Name",
+   "type":"string",
+   "domainType":"AGGREGATE",
+   "dataDimension":true,
+   "description":"Patient Name",
+   "externalAccess":false,
+   "textType":"text",
+   "publicAccess":"rw------",
+   "aggregationOperator":"sum",
+   "allItems":false,
+   "url":"",
+   "optionSetValue":false,
+   "displayName":"patient_name",
+   "displayShortName":"Name",
+   "access":{
+      "update":true,
+      "externalize":false,
+      "write":true,
+      "delete":true,
+      "read":true,
+      "manage":true
+   },
+   "categoryCombo":{
+      "id":"REPLACEME",
+      "name":"default",
+      "created":"2015-08-07T20:13:52.000+0000",
+      "lastUpdated":"2015-08-07T20:13:52.000+0000"
+   },
+   "aggregationLevels":[
+
+   ],
+   "dataElementGroups":[
+
+   ],
+   "dataSets":[
+
+   ],
+   "attributeValues":[
+
+   ],
+   "items":[
+
+   ],
+   "userGroupAccesses":[
+
+   ]
+}
