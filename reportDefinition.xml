@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><reportTemplates><dataElements><dataElement code="DE1001" uid="CZmzKjLrWqN" name="Total ANC Patient Registered"/><dataElement code="DE1002" uid="yAJZRH6PZ2T" name="Total Non ANC patient registered"/></dataElements><disaggregations><disaggregation code="kXeCnP6XTCR" uid="kXeCnP6XTCR" name="(default)"/><disaggregation code="NvUsn9Pgtvj" uid="NvUsn9Pgtvj" name="(Female)"/><disaggregation code="X0iEz3uT7s4" uid="X0iEz3uT7s4" name="(Male)"/></disaggregations><reportTemplate><name>ANC Dataset</name><uid>W42B2mfTjuV</uid><code>DS_ANC</code><dataValueTemplates><dataValueTemplate dataElement="DE1002" disaggregation="kXeCnP6XTCR"><annotation>
+					select count(*) 
+					from obs o
+					inner join person_attribute pa on pa.person_id=o.person_id
+					inner join person_attribute_type pat on pat.person_attribute_type_id=pa.person_attribute_type_id
+					inner join concept_name cn on cn.concept_id=o.concept_id
+					where date(o.date_created) between:startOfPeriod AND :endOfPeriod
+					and pat.name like &quot;Patient Category&quot;
+					and pa.value not like &quot;Antenatal&quot;
+					and cn.name like &quot;OPD WARD&quot;
+					and cn.concept_name_type like &quot;FULLY_SPECIFIED&quot;;
+				</annotation></dataValueTemplate><dataValueTemplate dataElement="DE1001" disaggregation="kXeCnP6XTCR"><annotation>
+					select count(*) 
+					from obs o
+					inner join person_attribute pa on pa.person_id=o.person_id
+					inner join person_attribute_type pat on pat.person_attribute_type_id=pa.person_attribute_type_id
+					inner join concept_name cn on cn.concept_id=o.concept_id
+					where date(o.date_created) between:startOfPeriod AND :endOfPeriod
+					and pat.name like &quot;Patient Category&quot;
+					and pa.value like &quot;Antenatal&quot;
+					and cn.name like &quot;OPD WARD&quot;
+					and cn.concept_name_type like &quot;FULLY_SPECIFIED&quot;;
+				</annotation></dataValueTemplate></dataValueTemplates></reportTemplate></reportTemplates>
